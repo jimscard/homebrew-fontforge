@@ -3,7 +3,7 @@
 
 cask "fontforge" do
   version "20260316"
-  sha256 :no_check
+  sha256 "13d5e52ef3bd681e6897e0d6888a218c2147ae14e35aa1e261b01b0ca3f053e2"
 
   url "https://github.com/jimscard/fontforge/releases/download/v#{version}/FontForge-#{version}-arm64.dmg"
 
