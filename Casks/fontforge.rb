@@ -4,7 +4,7 @@
 
 cask "fontforge" do
   version "20260316.1"
-  sha256 "ce3af4a7928e6b14a5e86a7b04c1d77d6e245853d0cff00772f4966fc4652bb7"
+  sha256 "250579e6e43c5b2e59870304d4ed1ab1383b6052e16018bbf7773be8be28854a"
 
   url "https://github.com/jimscard/fontforge/releases/download/v20260316.1/FontForge-20260316.1-arm64.dmg"
 
