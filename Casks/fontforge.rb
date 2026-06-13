@@ -6,7 +6,8 @@ cask "fontforge" do
   version "20260316.1"
   sha256 "250579e6e43c5b2e59870304d4ed1ab1383b6052e16018bbf7773be8be28854a"
 
-  url "https://github.com/jimscard/fontforge/releases/download/v20260316.1/FontForge-20260316.1-arm64.dmg"
+  url "https://github.com/jimscard/fontforge/releases/download/v#{version}/FontForge-#{version}-arm64.dmg",
+      verified: "github.com/jimscard/fontforge/"
 
   name "FontForge"
   desc "Font editor for outline and bitmap fonts"
