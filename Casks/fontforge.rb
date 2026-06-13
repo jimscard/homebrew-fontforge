@@ -12,7 +12,7 @@ cask "fontforge" do
   desc "Font editor for outline and bitmap fonts"
   homepage "https://fontforge.org"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
   depends_on arch: :arm64
 
   app "FontForge.app"
